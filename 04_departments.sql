@@ -7,5 +7,5 @@ CREATE TABLE departments (
 INSERT INTO departments VALUES
 (1, 'IT', 'Vyshnavi'),
 (2, 'HR', 'Ram'),
-(3, 'Finance', 'Manoj'),
-(4, 'Sales', 'Neeraj');
+(3, 'Finance', 'Ravin'),
+(4, 'Sales', 'Arjun');
