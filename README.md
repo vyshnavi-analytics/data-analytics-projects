@@ -1,5 +1,7 @@
 # Employee Analytics using SQL
 
+This SQL project is to analyze employee workforce data, exploring salary bands, department performance, and relational joins with managers. This project demonstrates SQL fundamentals and interview‑oriented queries.
+ 
 ## Project objective
 Analyze employee data to extract insights related to salary trends,
 department-wise performance, and employee demographics using SQL.
