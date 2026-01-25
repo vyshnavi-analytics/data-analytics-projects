@@ -28,3 +28,4 @@ Employee table containing:
 - Departments paying above company average were identified
 
 <img width="1841" height="793" alt="image" src="https://github.com/user-attachments/assets/f811b492-90ff-44bb-b9ce-d08d4af6e017" />
+<img width="1855" height="697" alt="image" src="https://github.com/user-attachments/assets/543d0e2d-f723-44b5-8bf6-3a0d9d98f469" />
