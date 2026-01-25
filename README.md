@@ -26,3 +26,5 @@ Employee table containing:
 - Employees were classified into salary categories using CASE WHEN
 - Department-wise average salaries were analyzed
 - Departments paying above company average were identified
+
+<img width="1841" height="793" alt="image" src="https://github.com/user-attachments/assets/f811b492-90ff-44bb-b9ce-d08d4af6e017" />
