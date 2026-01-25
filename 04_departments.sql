@@ -9,3 +9,7 @@ INSERT INTO departments VALUES
 (2, 'HR', 'Sonia'),
 (3, 'Finance', 'Manoj'),
 (4, 'Sales', 'Neeraj');
+SELECT e.name, e.salary, e.department, d.manager_name
+FROM employees e
+JOIN departments d
+ON e.department = d.department_name;
