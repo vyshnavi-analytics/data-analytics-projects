@@ -21,3 +21,18 @@ HAVING AVG(salary) >
     SELECT AVG(salary)
     FROM employees
 );
+SELECT MAX(salary) AS second_highest_salary
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);
+SELECT department, MAX(salary) AS highest_salary
+FROM employees
+GROUP BY department;
+SELECT e.name, e.salary, e.department
+FROM employees e
+JOIN (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+) d
+ON e.department = d.department
+WHERE e.salary > d.avg_salary;
