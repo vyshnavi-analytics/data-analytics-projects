@@ -1,6 +1,6 @@
 # Employee Analytics using SQL
 
-## Project Objective
+## Project objective
 Analyze employee data to extract insights related to salary trends,
 department-wise performance, and employee demographics using SQL.
 
