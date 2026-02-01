@@ -36,3 +36,19 @@ JOIN (
 ) d
 ON e.department = d.department
 WHERE e.salary > d.avg_salary;
+WITH dept_avg AS (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+)
+SELECT e.name, e.salary, e.department
+FROM employees e
+JOIN dept_avg d
+ON e.department = d.department
+WHERE e.salary > d.avg_salary;
+SELECT name, department, salary,
+RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS salary_rank
+FROM employees;
+SELECT name,
+EXTRACT(YEAR FROM AGE(CURRENT_DATE, joining_date)) AS experience_years
+FROM employees;
