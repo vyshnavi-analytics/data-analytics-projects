@@ -21,6 +21,9 @@ Employee table containing:
 - GROUP BY, HAVING
 - Subqueries
 - Aggregate Functions
+- Window Functions
+- CTE's
+- Date-based analysis
 
 ## Key Insights
 - Employees were classified into salary categories using CASE WHEN
